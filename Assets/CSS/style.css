@@ -1,0 +1,41 @@
+body {
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+
+main {
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+nav a {
+    margin: 5em;
+    
+}
+
+#navbarNav  a:hover {
+    color: #3f87a6;
+    border-radius: 3px;
+    box-shadow: #3f87a7 .5px .5px .5px 1px;
+}
+
+.about {
+    margin-top: 5em;
+    
+}
+
+.container {
+    margin-top: 5em;
+    
+    
+}
+
+.container.Exp ul {
+    list-style-type: none;
+}
+
+.title {
+    font-weight: bold;
+}
+.date   {
+    font-style: italic;
+}
