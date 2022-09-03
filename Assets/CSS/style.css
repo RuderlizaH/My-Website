@@ -1,41 +1,93 @@
 body {
+    height: 1400px;
     background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    font-family: poiret-one,sans-serif;
+    font-style: normal;
 }
 
 main {
     margin-left: 2em;
     margin-right: 2em;
+    background: rgba( 81, 130, 217, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 9px );
+    -webkit-backdrop-filter: blur( 9px );
+    border-radius: 10px;
+    border: solid rgba( 255, 255, 255, 0.18 );
 }
 
+header {
+    background: rgba( 81, 130, 217, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 9px );
+    -webkit-backdrop-filter: blur( 9px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+/*navbar*/
 nav a {
     margin: 5em;
+
+}
+
+#navbarNav a:hover {
+    color: white;
+    border-radius: 3px;
+    box-shadow: #3f87a7 .5px .5px .5px 1px;
     
 }
 
-#navbarNav  a:hover {
-    color: #3f87a6;
-    border-radius: 3px;
-    box-shadow: #3f87a7 .5px .5px .5px 1px;
-}
-
+/*home/about*/
 .about {
     margin-top: 5em;
     
+
 }
 
+/*all containers*/
 .container {
     margin-top: 5em;
     
-    
 }
 
+
+/*experience container*/
 .container.Exp ul {
     list-style-type: none;
 }
 
+
 .title {
-    font-weight: bold;
+    font-weight: bolder;
 }
-.date   {
+
+.date {
     font-style: italic;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
+
+.container-skills {
+    display: flex;
+    justify-content: center;
+}
+
+.container-port{
+
+    background: rgba( 81, 130, 217, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 9px );
+    -webkit-backdrop-filter: blur( 9px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+   
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    
+    
 }
