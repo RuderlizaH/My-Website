@@ -57,6 +57,12 @@ nav a {
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 }
 
+#connect a {
+    color: rgba(41, 40, 49, 0.6);
+}
+#connect a:hover {
+    color: white;
+}
 /*experience container*/
 
 .container.Exp {
