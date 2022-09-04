@@ -1,8 +1,9 @@
 body {
     height: 1400px;
-    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
-    font-family: poiret-one,sans-serif;
-    font-style: normal;
+    background-color: rgba(243, 141, 39, 0.63);
+    /*background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);*/
+    font-family: 'Dosis', sans-serif;
+    font-weight: 300;
 }
 
 main {
@@ -13,7 +14,7 @@ main {
     backdrop-filter: blur( 9px );
     -webkit-backdrop-filter: blur( 9px );
     border-radius: 10px;
-    border: solid rgba( 255, 255, 255, 0.18 );
+    border: rgba( 255, 255, 255, 0.18 );
 }
 
 header {
@@ -22,12 +23,14 @@ header {
     backdrop-filter: blur( 9px );
     -webkit-backdrop-filter: blur( 9px );
     border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border: 1px rgba( 255, 255, 255, 0.18 );
 }
 
 /*navbar*/
 nav a {
-    margin: 5em;
+    margin: 20px;
+    margin-left: 135px;
+    
 
 }
 
@@ -53,13 +56,25 @@ nav a {
 
 
 /*experience container*/
+.container.Exp {
+    height: 500px;
+    margin-top: 250px;
+    margin-bottom: 250px;
+    text-align: center;
+}
 .container.Exp ul {
+    
     list-style-type: none;
 }
 
 
 .title {
-    font-weight: bolder;
+    font-weight: 500;
+}
+
+h2 {
+    font-weight: 600;
+    
 }
 
 .date {
@@ -72,6 +87,8 @@ img {
 }
 
 .container-skills {
+    margin-bottom: 300px;
+    text-align: center;
     display: flex;
     justify-content: center;
 }
@@ -83,7 +100,7 @@ img {
     backdrop-filter: blur( 9px );
     -webkit-backdrop-filter: blur( 9px );
     border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border: 1px rgba( 255, 255, 255, 0.18 );
    
     display: grid;
     align-items: center;
