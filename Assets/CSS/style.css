@@ -17,6 +17,8 @@ main {
     border: rgba( 255, 255, 255, 0.18 );
 }
 
+
+/*navbar*/
 header {
     background: rgba( 81, 130, 217, 0.2 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
@@ -26,12 +28,9 @@ header {
     border: 1px rgba( 255, 255, 255, 0.18 );
 }
 
-/*navbar*/
 nav a {
     margin: 20px;
     margin-left: 135px;
-    
-
 }
 
 #navbarNav a:hover {
@@ -41,21 +40,24 @@ nav a {
     
 }
 
-/*home/about*/
-.about {
-    margin-top: 5em;
-    
-
-}
-
 /*all containers*/
 .container {
-    margin-top: 5em;
-    
+    margin-top: 5em;   
 }
 
+/*home/about*/
+.about {
+    margin-top: 5em;  
+}
+
+.pfp {
+    /*border: solid rgba( 31, 38, 135, 0.37 );*/
+    border-radius: 100px;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+}
 
 /*experience container*/
+
 .container.Exp {
     height: 500px;
     margin-top: 250px;
@@ -67,20 +69,21 @@ nav a {
     list-style-type: none;
 }
 
-
 .title {
     font-weight: 500;
 }
 
 h2 {
     font-weight: 600;
-    
+    text-align: center;
 }
 
 .date {
     font-style: italic;
 }
 
+
+/*all Images*/
 img {
     height: 200px;
     width: 200px;
@@ -101,10 +104,14 @@ img {
     -webkit-backdrop-filter: blur( 9px );
     border-radius: 10px;
     border: 1px rgba( 255, 255, 255, 0.18 );
-   
+   text-align: center;   
+}
+
+#port-content {
     display: grid;
+    grid-auto-flow: column;
     align-items: center;
     justify-content: center;
-    
-    
+    grid-template-columns: repeat(2, 1fr);
+    font-weight: bold;
 }
