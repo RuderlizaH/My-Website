@@ -108,11 +108,4 @@ img {
    text-align: center;   
 }
 
-#port-content {
-    display: grid;
-    grid-auto-flow: column;
-    align-items: center;
-    justify-content: center;
-    grid-template-columns: repeat(2, 1fr);
-    font-weight: bold;
-}
+
